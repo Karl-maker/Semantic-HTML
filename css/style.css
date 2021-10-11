@@ -1,0 +1,56 @@
+.top-container {
+  padding: 2px;
+  border: 1px solid;
+}
+
+.top-container nav {
+  text-align: right;
+}
+
+.top-container nav ul {
+  margin-right: 5px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.top-container nav ul li {
+  display: inline;
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  height: 200px;
+}
+
+.contact {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 70px;
+}
+
+.contact h3 {
+  border: 1px solid;
+  margin-left: 10px;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+}
+
+.navigation nav ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navigation nav ul li {
+  float: left;
+}
+
+.navigation nav ul li a {
+  text-decoration: none;
+  margin-left: 90px;
+  color: #030303;
+}
