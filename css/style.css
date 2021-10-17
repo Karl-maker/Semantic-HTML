@@ -1,43 +1,26 @@
-.top-container {
-  padding: 2px;
-  border: 1px solid;
-}
-
-.top-container nav {
-  text-align: right;
-}
-
-.top-container nav ul {
-  margin-right: 5px;
-  list-style: none;
-  text-decoration: none;
-}
-
-.top-container nav ul li {
-  display: inline;
-}
-
 .column {
   display: flex;
   justify-content: space-between;
 }
 
-img {
-  height: 200px;
+.column img {
+  margin: 5%;
+  width: 100%;
+  border: 1px solid;
 }
 
 .contact {
   display: flex;
   justify-content: end;
-  margin-bottom: 70px;
+  margin-bottom: 5%;
 }
 
 .contact h3 {
   border: 1px solid;
-  margin-left: 10px;
-  width: 300px;
+  margin-left: 5%;
+  width: 40%;
   text-align: center;
-  padding: 10px;
+  padding: 1%;
 }
 
 .navigation nav ul {
@@ -53,4 +36,38 @@ img {
   text-decoration: none;
   margin-left: 90px;
   color: #030303;
+}
+
+.header-img {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-img img {
+  width: 100%;
+}
+
+main div {
+  border: 1px solid;
+}
+
+.emergency-announcement {
+  margin-top: 1%;
+  padding: 1%;
+}
+
+.emergency-announcement h4 {
+  float: left;
+}
+.widget {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.widget div {
+  width: 32%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -3,6 +3,26 @@
   <head>
     <title>Web Design</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      .top-container {
+        padding: 1%;
+        border: 1px solid;
+      }
+
+      .top-container nav {
+        text-align: right;
+      }
+
+      .top-container nav ul {
+        margin-right: 1%;
+        list-style: none;
+        text-decoration: none;
+      }
+
+      .top-container nav ul li {
+        display: inline;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -16,7 +36,7 @@
         </nav>
       </div>
       <div class="column">
-        <div><img src="./documentation/IMG-2195.PNG" /></div>
+        <div><img src="./img/logo.png" /></div>
         <div>
           <div class="contact">
             <h3>Phone Numbers</h3>
@@ -38,15 +58,20 @@
       </div>
     </header>
     <main>
-      <section></section>
       <section>
-        <article></article>
-        <article></article>
+        <div class="header-img"><img src="img/header-img.png" /></div>
       </section>
-      <aside></aside>
+      <section>
+        <div class="emergency-announcement">
+          <h4>Emergency Announcements</h4>
+          <h5>(weather closings, etc)</h5>
+        </div>
+      </section>
+      <section class="column widget">
+        <div><h4>Our Practice</h4></div>
+        <div><h4>Order Medication</h4></div>
+        <div><h4>Map and Directions</h4></div>
+      </section>
     </main>
-    <footer>
-      <!--Footer Content-->
-    </footer>
   </body>
 </html>
